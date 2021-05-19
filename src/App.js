@@ -1,4 +1,8 @@
 import logo from './logo.svg';
+import React from 'react';
+import Section2 from './Component/section2.jsx';
+import FinalPage from './Component/final.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
@@ -9,15 +13,14 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <div className="mt-5">
+        <Section2 />
+      </div>
+      
+      <footer className="App-footer">
+        <FinalPage />
+      </footer>
     </div>
   );
 }
