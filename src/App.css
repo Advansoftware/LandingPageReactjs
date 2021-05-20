@@ -1,51 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .App {
-  text-align: center;
-  background: #00C1E3;
-  font-style: normal;
-  font-weight: normal;
-  text-align: center;
-  color: #FFFFFF;
-  }
-
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: #00C1E3;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 .App-header {
-  background-color: #546E7A;
-  /*min-height: 100vh;*/
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #546E7A;
+    /*min-height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
-.App-footer{
-  background-color:#263238;
-  background-image: url('./Assets/images/mdi_favorite2.png');
-  background-size: 30px;
-  background-position: 100% 0;
-  z-index: 1;
+
+.App-footer {
+    background-color: #263238;
+    background-image: url('./Assets/images/mdi_favorite2.png');
+    background-size: 30px;
+    background-position: 100% 0;
+    z-index: 1;
 }
-.Final-logoFooter{
-  width: 110px;
+
+.Final-logoFooter {
+    width: 110px;
 }
-.Inicio-card-form{
-  background-color: rgba(0,0,0,.05);
-  border-color: rgba(255,255,255,.1);
-  border-radius: 8px;
+
+.Inicio-card-form {
+    background-color: rgba(0, 0, 0, .05);
+    border-color: rgba(255, 255, 255, .1);
+    border-radius: 8px;
 }
-.font-weight-bold{
-  font-style: normal;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  color: #263238;
+
+.font-weight-bold {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;   
+    text-align: center;
+    text-transform: uppercase;
 }
-input.form-control{
-  height: 56px;
-  border-radius: 4px;
+
+input.texto {
+    height: 56px;
+    border-radius: 4px;
+}
+.icone { 
+    display: inline;
+}
+ul a{
+    color: #fff;
+}
+
+ul a:visited{
+    color: #fff;
+}
+
+ul a:hover{
+    color: rgba(255, 255, 255, 0.7);
+    transition: ease-in-out .3s;
+}
+.custom-control-label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+.custom-control-label:before{
+    background-color: transparent;
+}
+.sexo{
+    background-color: transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.formulario-footer{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+.custom-control-input.is-valid~.custom-control-label, .was-validated .custom-control-input:valid~.custom-control-label{
+    color: #42ce62;
+}
+.custom-control-input.is-invalid~.custom-control-label, .was-validated .custom-control-input:invalid~.custom-control-label, .invalid-feedback {
+    color: salmon;
 }
