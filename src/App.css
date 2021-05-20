@@ -2,21 +2,14 @@
 .App {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background: #00C1E3;
+    background-color: #546E7A;
     font-style: normal;
     font-weight: normal;
     text-align: center;
     color: #FFFFFF;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
-
-.App-header {
-    background-color: #546E7A;
-    /*min-height: 100vh;*/
+.App-inicio {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,12 +18,34 @@
     color: white;
 }
 
+header {
+    background-color: #fff;
+    max-width: 20rem;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: auto;
+    box-shadow: 1px 1px 2px 0px rgb(0 0 0 / 50%);
+}
+
+header hr.vertical {
+    position: relative;
+    transform: rotate(90deg);
+    width: 18%;
+    margin: auto;
+}
+
 .App-footer {
     background-color: #263238;
     background-image: url('./Assets/images/mdi_favorite2.png');
     background-size: 30px;
     background-position: 100% 0;
     z-index: 1;
+}
+
+.secao2 {
+    background: #00C1E3;
+    padding-top: 3rem;
 }
 
 .Final-logoFooter {
@@ -47,7 +62,7 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 18px;
-    line-height: 21px;   
+    line-height: 21px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -56,32 +71,55 @@ input.texto {
     height: 56px;
     border-radius: 4px;
 }
-.icone { 
+
+.icone {
     display: inline;
 }
-ul a{
+
+ul a {
     color: #fff;
 }
 
-ul a:visited{
+ul a:visited {
     color: #fff;
 }
 
-ul a:hover{
+ul a:hover {
     color: rgba(255, 255, 255, 0.7);
     transition: ease-in-out .3s;
 }
-.custom-control-label{
+
+form a, form a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+form a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+form p{
     font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.custom-control-label {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
 }
-.custom-control-label:before{
+
+.custom-control-label:before {
     background-color: transparent;
 }
-.sexo{
+
+.sexo {
     background-color: transparent;
     font-style: normal;
     font-weight: bold;
@@ -90,16 +128,24 @@ ul a:hover{
     text-align: center;
     text-transform: uppercase;
 }
-.formulario-footer{
-    font-family: Roboto;
+
+.formulario-footer {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
 }
-.custom-control-input.is-valid~.custom-control-label, .was-validated .custom-control-input:valid~.custom-control-label{
+
+.custom-control-input.is-valid~.custom-control-label, .was-validated .custom-control-input:valid~.custom-control-label {
     color: #42ce62;
 }
+
 .custom-control-input.is-invalid~.custom-control-label, .was-validated .custom-control-input:invalid~.custom-control-label, .invalid-feedback {
     color: salmon;
+}
+.invalid-feedback-sm{
+    margin-top: 0;
+    font-size: 15px;
+    text-align: justify;
 }
