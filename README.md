@@ -11,22 +11,22 @@ As ferramentas necessárias em seu computador para iniciarmos este projeto é o 
 Logo, vamos instalar o yarn utilizando o comando:
 
 ---
-No Linux
+#### No Linux
 ###### `sudo npm install -g yarn`
-No Windows
+#### No Windows
 ###### `npm install --global yarn`
 ---
 
 
 Em seguida, reinicie o seu terminal.
-Para verificar se a instalação do **yarn** foi concluida com êxito, utilize o comando:
+Para verificar se a instalação do **yarn** foi concluida com êxito, utilize:
 
 ###### `yarn --version`
 
 Após a conclusão da instalação do yarn, vamos baixar o projeto do github.
 
 ### Baixando e Instalando as Dependências do Projeto
-Para baixar o projeto voce deve utilizar o comando:
+Para baixar o projeto você deve utilizar o comando:
  
 ###### `git clone https://github.com/Advansoftware/hot-test.git`
 
@@ -40,9 +40,9 @@ Aguarde até que a instalação seja concluida.
 
 ### `Rodando o projeto`
 
-Para Rodar o projeto utilize o comando em seu terminal:
+Agora vamos rodar o projeto. utilize o seguinte comando em seu terminal:
 
 ###### `yarn start`
 
-Finalmente a abra a url: [http://localhost:3000](http://localhost:3000)
+E finalmente a abra a url: [http://localhost:3000](http://localhost:3000)
 
