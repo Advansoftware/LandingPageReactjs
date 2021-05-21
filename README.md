@@ -3,25 +3,21 @@
 Esta é uma aplicação React criada como um desafio gerado pelo [Grupo Bee](https://beeleads.com.br/).
 
 ### Ferramentas Necessarias
-Para iniciar o projeto voce precisa ter **nodejs** e o **git** instalados em sua maquina.
-dando sequencia ao projeto, precisamos da ferrameta **yarn** em nosso computador.
+Para iniciar o projeto você precisa ter **nodejs**, **git** e tambêm da ferrameta **yarn** instalados em sua máquina.
 
 [Clique aqui para instalar o Git](https://git-scm.com/)<br/>
 [Clique aqui para instalar o NodeJs](https://nodejs.org/en/download/)
 
-apos a instalação e configuração de ambos, vamos instalar o yarn com o seguinte comando no terminal
+após a instalação e configuração de ambos, no windows, vamos instalar o yarn utilizando o seguinte comando no terminal do windows
 
-###### `npm install --global yarn`
+###### `sudo npm install -g yarn`
 
-ja no linux, vamos ultilizar o seguinte comando
-
-###### `sudo apt install git nodejs yarn`
-
-apos a conclusão desse processo, para verificar se a instalação do **yarn** foi concluida utilize o comando
+após a conclusão desse processo, reinicie o seu terminal.
+Para verificar se a instalação do **yarn** foi concluida com êxito, utilize o comando.
 
 ###### `yarn --version`
 
-Apos a conclusao da instalação do yarn, vamos baixar o projeto do github
+Após a conclusão da instalação do yarn, vamos baixar o projeto do github
 
 ### Baixando e Instalando as Dependencias do Projeto
  Para baixar o projeto voce deve utilizar o comando 
@@ -33,7 +29,7 @@ para entrar na pasta digite o comando
 
 ###### `cd hot-test`
 
-apos entrar na pasta vamos instalar as dependencias do projeto com o comando
+após entrar na pasta vamos instalar as dependências do projeto com o comando
 
 ###### `yarn install`
 
@@ -41,7 +37,7 @@ Aguarde até que a instalação seja concluida.
 
 ### `Rodando o projeto`
 
-Para Rodarmos o projeto precisamos digitar o seguinte comando no terminal
+Para Rodar o projeto utilize o comando em seu terminal
 
 ###### `yarn start`
 
