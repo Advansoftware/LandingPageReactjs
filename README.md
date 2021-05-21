@@ -38,7 +38,7 @@ Depois de entrar na pasta vamos instalar as dependências do projeto com o coman
 
 Aguarde até que a instalação seja concluida.
 
-### `Iniciando o projeto`
+### Iniciando o projeto
 
 Agora vamos iniciar o projeto. utilize o seguinte comando em seu terminal:
 
