@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Hot-Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta é uma aplicação React criada como um desafio gerado pelo Grupo Bee.
 
-## Available Scripts
+### Ferramentas Necessarias
+Para iniciar o projeto voce precisa ter **nodejs** e o **git** instalados em sua maquina.
+dando sequencia ao projeto, precisamos da ferrameta **yarn** em nosso computador.
 
-In the project directory, you can run:
+[Clique aqui para instalar o Git](https://git-scm.com/)<br/>
+[Clique aqui para instalar o NodeJs](https://nodejs.org/en/download/)
 
-### `yarn start`
+apos a instalação e configuração de ambos, vamos instalar o yarn com o seguinte comando no terminal
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+###### `npm install --global yarn`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ja no linux, vamos ultilizar o seguinte comando
 
-### `yarn test`
+###### `sudo apt install git nodejs yarn`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+apos a conclusão desse processo, para verificar se a instalação do **yarn** foi concluida utilize o comando
 
-### `yarn build`
+###### `yarn --version`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Apos a conclusao da instalação do yarn, vamos baixar o projeto do github
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Baixando e Instalando as Dependencias do Projeto
+ Para baixar o projeto voce deve utilizar o comando 
+ 
+###### `git clone https://github.com/Advansoftware/hot-test.git`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Apos a conclusão do download, precisamos entrar na pasta do projeto para instalar todas as suas dependencias.
+para entrar na pasta digite o comando
 
-### `yarn eject`
+###### `cd hot-test`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+apos entrar na pasta vamos instalar as dependencias do projeto com o comando
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+###### `yarn install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Aguarde até que a instalação seja concluida.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `Rodando o projeto`
 
-## Learn More
+Para Rodarmos o projeto precisamos digitar o seguinte comando no terminal
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+###### `yarn start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Apos a inicialização o projeto que normalmente abre sozinho.
+a aplicação sera iniciada no seguinte endereço
+[http://localhost:3000](http://localhost:3000)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
