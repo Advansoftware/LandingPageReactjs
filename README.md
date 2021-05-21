@@ -10,9 +10,15 @@ As ferramentas necessárias em seu computador para iniciarmos este projeto é o 
 
 Logo, vamos instalar o yarn utilizando o comando:
 
+---
+No Linux
 ###### `sudo npm install -g yarn`
+No Windows
+###### `npm install --global yarn`
+---
 
-em seguida, reinicie o seu terminal.
+
+Em seguida, reinicie o seu terminal.
 Para verificar se a instalação do **yarn** foi concluida com êxito, utilize o comando:
 
 ###### `yarn --version`
