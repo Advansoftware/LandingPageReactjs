@@ -1,6 +1,6 @@
 # Hot-Test
 
-Esta é uma aplicação React criada como um desafio gerado pelo Grupo Bee.
+Esta é uma aplicação React criada como um desafio gerado pelo [Grupo Bee](https://beeleads.com.br/).
 
 ### Ferramentas Necessarias
 Para iniciar o projeto voce precisa ter **nodejs** e o **git** instalados em sua maquina.
